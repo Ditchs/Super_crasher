@@ -1,0 +1,5 @@
+local A_1 = game:HttpGet("https://raw.githubusercontent.com/testtttttt26/232321331312/main/Protected%20(22).lua")
+local lib = require(game.ReplicatedStorage.Framework.Library)
+while task.wait(1.5) do
+    task.spawn(lib.Network.Invoke, A_1, {})
+end
